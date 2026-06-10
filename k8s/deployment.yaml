@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
         - name: ml-pipeline
-          image: ml-pipeline:1.0
-          imagePullPolicy: Never
+          image: us-central1-docker.pkg.dev/ml-pipeline-499012/ml-pipeline-repo/ml-pipeline:1.0
           ports:
             - containerPort: 8000
           livenessProbe:

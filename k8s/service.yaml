@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: ml-pipeline-service
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: ml-pipeline
   ports:
